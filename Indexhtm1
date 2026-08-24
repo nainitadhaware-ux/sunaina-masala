@@ -1,0 +1,362 @@
+Sunaina Masala 🌶️
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sunaina Masala | Authentic Taste</title>
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #fff8ef;
+  color: #35130b;
+}
+
+header {
+  background: linear-gradient(135deg, #8b0000, #e65100);
+  color: white;
+  padding: 18px 7%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  font-size: 27px;
+  font-weight: bold;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+.hero {
+  min-height: 550px;
+  display: flex;
+  align-items: center;
+  padding: 60px 7%;
+  background: linear-gradient(120deg, #fff0d5, #ffd8b0);
+}
+
+.hero-text {
+  max-width: 650px;
+}
+
+.hero h1 {
+  font-size: 55px;
+  color: #8b0000;
+  margin-bottom: 15px;
+}
+
+.hero h2 {
+  font-size: 27px;
+  margin-bottom: 18px;
+}
+
+.hero p {
+  font-size: 19px;
+  line-height: 1.7;
+  margin-bottom: 25px;
+}
+
+.btn {
+  display: inline-block;
+  background: #168b32;
+  color: white;
+  padding: 14px 25px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.btn.red {
+  background: #c62828;
+}
+
+section {
+  padding: 65px 7%;
+}
+
+.title {
+  text-align: center;
+  font-size: 35px;
+  color: #8b0000;
+  margin-bottom: 40px;
+}
+
+.about {
+  text-align: center;
+  max-width: 850px;
+  margin: auto;
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 25px;
+}
+
+.product {
+  background: white;
+  border-radius: 18px;
+  padding: 28px;
+  text-align: center;
+  box-shadow: 0 6px 20px rgba(0,0,0,.12);
+}
+
+.product-icon {
+  font-size: 65px;
+  margin-bottom: 15px;
+}
+
+.product h3 {
+  color: #8b0000;
+  font-size: 23px;
+  margin-bottom: 10px;
+}
+
+.price {
+  font-size: 25px;
+  font-weight: bold;
+  color: #d84315;
+  margin: 15px;
+}
+
+.order-btn {
+  display: inline-block;
+  background: #168b32;
+  color: white;
+  padding: 11px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.features {
+  background: #fff0d5;
+}
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+  gap: 20px;
+}
+
+.feature {
+  background: white;
+  padding: 25px;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.feature span {
+  font-size: 40px;
+}
+
+.contact {
+  text-align: center;
+}
+
+.contact p {
+  font-size: 18px;
+  margin: 12px;
+}
+
+footer {
+  background: #4b160d;
+  color: white;
+  text-align: center;
+  padding: 25px;
+}
+
+@media(max-width:700px) {
+  nav {
+    display: none;
+  }
+
+  .hero h1 {
+    font-size: 40px;
+  }
+
+  .hero {
+    text-align: center;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo">🌶️ Sunaina Masala</div>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#products">Products</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero" id="home">
+  <div class="hero-text">
+    <h1>Sunaina Masala</h1>
+
+    <h2>घरच्या चवीची, Sunaina Masala ची खात्री!</h2>
+
+    <p>
+      Authentic Indian spices made for delicious everyday cooking.
+      Enjoy rich aroma, traditional taste and quality spices with
+      Sunaina Masala.
+    </p>
+
+    <a href="#products" class="btn red">View Products</a>
+
+    <!-- Replace 919999999999 with your WhatsApp number -->
+    <a
+      href="https://wa.me/919999999999?text=Hello%20Sunaina%20Masala%2C%20I%20want%20to%20place%20an%20order."
+      class="btn">
+      Order on WhatsApp
+    </a>
+  </div>
+</section>
+
+<section id="about">
+  <h2 class="title">About Sunaina Masala</h2>
+
+  <div class="about">
+    <p>
+      Welcome to <b>Sunaina Masala</b> — your destination for
+      flavorful and authentic Indian spices.
+    </p>
+
+    <p>
+      We focus on quality ingredients, traditional taste and
+      hygienic packing so that every meal becomes more delicious.
+    </p>
+
+    <p>
+      From everyday cooking to special occasions,
+      Sunaina Masala brings the taste of Indian kitchens to your home.
+    </p>
+  </div>
+</section>
+
+<section id="products">
+  <h2 class="title">Our Products</h2>
+
+  <div class="products">
+
+    <div class="product">
+      <div class="product-icon">🌕</div>
+      <h3>Perimic Powder</h3>
+      <p>Fresh and flavorful spice powder.</p>
+      <div class="price">₹400 / kg</div>
+
+      <a
+        class="order-btn"
+        href="https://wa.me/919999999999?text=I%20want%20to%20order%20Perimic%20Powder">
+        Order Now
+      </a>
+    </div>
+
+    <div class="product">
+      <div class="product-icon">🌶️</div>
+      <h3>Lal Tikhat</h3>
+      <p>Rich colour and delicious spicy flavour.</p>
+      <div class="price">₹400 / kg</div>
+
+      <a
+        class="order-btn"
+        href="https://wa.me/919999999999?text=I%20want%20to%20order%20Lal%20Tikhat">
+        Order Now
+      </a>
+    </div>
+
+    <div class="product">
+      <div class="product-icon">🖤</div>
+      <h3>Kala Tikhat</h3>
+      <p>Special spicy blend for authentic taste.</p>
+      <div class="price">₹500 / kg</div>
+
+      <a
+        class="order-btn"
+        href="https://wa.me/919999999999?text=I%20want%20to%20order%20Kala%20Tikhat">
+        Order Now
+      </a>
+    </div>
+
+  </div>
+</section>
+
+<section class="features">
+  <h2 class="title">Why Choose Sunaina Masala?</h2>
+
+  <div class="feature-grid">
+
+    <div class="feature">
+      <span>🌿</span>
+      <h3>Quality Ingredients</h3>
+      <p>Carefully selected spices.</p>
+    </div>
+
+    <div class="feature">
+      <span>👩‍🍳</span>
+      <h3>Authentic Taste</h3>
+      <p>Traditional Indian flavour.</p>
+    </div>
+
+    <div class="feature">
+      <span>📦</span>
+      <h3>Hygienic Packing</h3>
+      <p>Clean and careful packaging.</p>
+    </div>
+
+    <div class="feature">
+      <span>❤️</span>
+      <h3>Made With Care</h3>
+      <p>Prepared with attention to quality.</p>
+    </div>
+
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <h2 class="title">Contact Sunaina Masala</h2>
+
+  <p>📞 Phone: <b>+91 XXXXX XXXXX</b></p>
+  <p>📱 WhatsApp: <b>Order directly on WhatsApp</b></p>
+  <p>📍 Address: Your Business Address</p>
+
+  <br>
+
+  <a
+    href="https://wa.me/919999999999?text=Hello%20Sunaina%20Masala%2C%20I%20want%20to%20know%20more."
+    class="btn">
+    Chat on WhatsApp
+  </a>
+</section>
+
+<footer>
+  <p>© 2026 Sunaina Masala. All Rights Reserved.</p>
+  <p>Authentic Taste • Quality Spices • Made With Care</p>
+</footer>
+
+</body>
+</html>
